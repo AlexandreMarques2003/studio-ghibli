@@ -17,8 +17,8 @@ export function Footer() {
             </div>
 
             <ul className="social">
-                <li><a href="https://www.facebook.com/GhibliUSA/" target="_blank"><BsFacebook /></a></li>
-                <li><a href="https://www.instagram.com/ghibliusa/" target="_blank"><BsInstagram /></a></li>
+                <li><a href="https://www.facebook.com/GhibliUSA/" target="_blank" rel="noreferrer"><BsFacebook /></a></li>
+                <li><a href="https://www.instagram.com/ghibliusa/" target="_blank" rel="noreferrer"><BsInstagram /></a></li>
 
             </ul>
         </footer>
