@@ -1,0 +1,36 @@
+footer {
+    width: 100%;
+    height: 3rem;
+    background-color: #0B55AB;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+
+    font-size: 1.1rem;
+
+    .social {
+        display: flex;
+    }
+
+    .social li {
+        margin: 0 0 0 1.5rem;
+    }
+
+    .email_icon{
+        display: none;   
+    }
+
+    @media (max-width: 577px) {
+        .email{
+            display: none;
+        }
+        .email_icon{
+            display: block;
+        }
+    }
+
+}
+

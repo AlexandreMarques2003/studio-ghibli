@@ -1,0 +1,45 @@
+.search{
+    padding-bottom: 1.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+
+    &-results{
+        font-weight: 700;
+    }
+
+    &-form{
+        font-weight: 700;
+        font-size: 1.25rem;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input{
+            height: 1.5rem;
+            width: 10.5rem;
+
+            margin-left: .5rem;
+            padding: .5rem;
+
+            background-color: transparent;
+            color: inherit;
+            &::placeholder{
+                color: inherit;
+            }
+
+            border: none;
+            text-decoration: none;
+
+            font-size: 1rem;
+            font-weight: 700;
+
+            cursor: pointer;
+        }
+    }
+
+}
