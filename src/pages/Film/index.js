@@ -16,7 +16,7 @@ export function Film() {
             setFilm(data);
         }
         getFilm()
-    }, [])
+    }, [id])
 
     return (
         <main className='film' >

@@ -10,7 +10,7 @@ export function Header() {
             <Link to="/">
 
                 <div className='logo'>
-                    <img src={logo}></img>
+                    <img src={logo} alt="logo"></img>
                 </div>
             </Link>
         </header>

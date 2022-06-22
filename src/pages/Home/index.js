@@ -43,6 +43,7 @@ export function Home() {
                         key={film.id}
                         id={film.id}
                         image={film.image}
+                        title={film.title}
                    />                         
                 )}
             </div>
